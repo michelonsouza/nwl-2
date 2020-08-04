@@ -1,0 +1,182 @@
+{
+  "drivers": [
+    {
+      "id": 10000000000,
+      "name": "Michelon Souza",
+      "document": "12345678",
+      "phoneNumber": "11987654321",
+      "vehicleType": "carro",
+      "region": "norte",
+      "token": "fake-app-token",
+      "insuranceStatus": "unknow",
+      "vehiclePlate": "MIC-7M84",
+      "createdAt": "2020-07-23 20:20",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "name": "Rafoso",
+      "document": "87654321",
+      "phoneNumber": "11912341234",
+      "vehicleType": "carro",
+      "region": "norte",
+      "token": "fake-app-token",
+      "insuranceStatus": "unknow",
+      "vehiclePlate": "RAF-1R99",
+      "createdAt": "2020-06-01 10:10",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Osmarcelo",
+      "document": "10293847",
+      "phoneNumber": "11911223344",
+      "vehicleType": "carro",
+      "region": "norte",
+      "token": "fake-app-token",
+      "insuranceStatus": "unknow",
+      "vehiclePlate": "MAR-1A99",
+      "createdAt": "2020-06-05 11:11",
+      "status": "deactive"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Fiorino",
+      "capacity": 600.00,
+      "volume": 600.00,
+      "weight": 600.00,
+      "volume_factor": 210.00,
+      "minute_cost": 0.350,
+      "kilometer_cost": 0.550,
+      "service_cost": 0.000,
+      "item_cost": 0.000,
+      "fixed_cost": 0.000,
+      "avg_speed": 23.000,
+      "minutes_per_order": 5,
+      "minutes_per_item": 1,
+      "order_cost": 0.75,
+      "max_worktime": 23,
+      "restricted": 1,
+      "cost_choosed": "bko_default",
+      "created_at": "2016-11-08 19:54:40",
+      "updated_at": "2016-11-08 19:54:40"
+    }
+  ],
+  "vehiclesList": [
+    {
+      "id": 1,
+      "name": "Fiorino",
+      "created_at": "2016-11-08 19:54:40"
+    },
+    {
+      "id": 2,
+      "name": "Particular",
+      "created_at": "2016-11-08 19:54:40"
+    }
+  ],
+  "regions": [
+    {
+      "id": 1,
+      "category": "CENTRO 1",
+      "postcode_start": 1100000,
+      "postcode_end": 1199000,
+      "title": "Bom retiro",
+      "region": "Centro",
+      "restricted": 1,
+      "center_geolocation": {
+        "longitude": -45.654,
+        "latitude": -23.654
+      },
+      "distance": 7.00
+    },
+    {
+      "id": 2,
+      "category": "CENTRO 2",
+      "postcode_start": 1100000,
+      "postcode_end": 1199000,
+      "title": "Bela Vista",
+      "region": "Centro 2",
+      "restricted": 1,
+      "center_geolocation": {
+        "longitude": -45.554,
+        "latitude": -23.354
+      },
+      "distance": 5.00
+    }
+  ],
+  "warehouses": [
+    {
+      "id": 1,
+      "address_id": 39,
+      "name": "CNT",
+      "active": 1,
+      "initial_working_hours": "09:00:00",
+      "final_working_hours": "18:00:00",
+      "type": null,
+      "document": null,
+      "entity_address_id": 39,
+      "created_at": "2017-08-02 22:31:38",
+      "updated_at": "2017-08-02 22:31:38"
+    },
+    {
+      "id": 2,
+      "address_id": 40,
+      "name": "Armazém da Vila",
+      "active": 1,
+      "initial_working_hours": "09:00:00",
+      "final_working_hours": "18:00:00",
+      "type": null,
+      "document": null,
+      "entity_address_id": 40,
+      "created_at": "2017-08-02 22:31:38",
+      "updated_at": "2017-08-02 22:31:38"
+    },
+    {
+      "id": 3,
+      "address_id": 41,
+      "name": "Arezzo",
+      "active": 2,
+      "initial_working_hours": "09:00:00",
+      "final_working_hours": "18:00:00",
+      "type": null,
+      "document": null,
+      "entity_address_id": 41,
+      "created_at": "2017-08-02 22:31:38",
+      "updated_at": "2017-08-02 22:31:38"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Thiago Risso",
+      "email": "thiago.risso@gmail.com",
+      "created_at": "2017-01-22 08:49:08",
+      "updated_at": "2017-01-22 08:49:08",
+      "status": 1,
+      "role_id": 1,
+      "warehouse_id": null
+    },
+    {
+      "id": 2,
+      "name": "Michelon Souza",
+      "email": "michelon@email.com",
+      "created_at": "2017-01-22 08:49:08",
+      "updated_at": "2017-01-22 08:49:08",
+      "status": 2,
+      "role_id": 1,
+      "warehouse_id": null
+    },
+    {
+      "id": 3,
+      "name": "Lilian Sousa",
+      "email": "lilian@email.com",
+      "created_at": "2017-01-22 08:49:08",
+      "updated_at": "2017-01-22 08:49:08",
+      "status": 3,
+      "role_id": 1,
+      "warehouse_id": null
+    }
+  ]
+}
