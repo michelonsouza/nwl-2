@@ -146,37 +146,5 @@
       "created_at": "2017-08-02 22:31:38",
       "updated_at": "2017-08-02 22:31:38"
     }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "name": "Thiago Risso",
-      "email": "thiago.risso@gmail.com",
-      "created_at": "2017-01-22 08:49:08",
-      "updated_at": "2017-01-22 08:49:08",
-      "status": 1,
-      "role_id": 1,
-      "warehouse_id": null
-    },
-    {
-      "id": 2,
-      "name": "Michelon Souza",
-      "email": "michelon@email.com",
-      "created_at": "2017-01-22 08:49:08",
-      "updated_at": "2017-01-22 08:49:08",
-      "status": 2,
-      "role_id": 1,
-      "warehouse_id": null
-    },
-    {
-      "id": 3,
-      "name": "Lilian Sousa",
-      "email": "lilian@email.com",
-      "created_at": "2017-01-22 08:49:08",
-      "updated_at": "2017-01-22 08:49:08",
-      "status": 3,
-      "role_id": 1,
-      "warehouse_id": null
-    }
   ]
 }
